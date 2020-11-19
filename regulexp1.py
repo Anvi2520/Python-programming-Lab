@@ -1,0 +1,13 @@
+import re
+result=re.findall(r'.',"good going")
+print(result)
+result1=re.findall(r'\w+',"good going python")
+print(result1)
+result2=re.findall(r'^\w+',"good going python")
+print(result2)
+result3=re.findall(r'\w+$',"good going python")
+print(result3)
+result4=re.findall(r'\w\w',"good going python")
+print(result4)
+result5=re.findall(r'\b\w\w',"good going python")
+print(result5)
